@@ -1,47 +1,46 @@
-
-import{Hero,
+import {
+  Hero,
   Customer,
   Footer,
   PopularProduct,
   Services,
   Subscribe,
   SuperQulity,
-  SpecialOffer
-} from './Section/Index';  
+  SpecialOffer,
+} from "./Section/Index";
 
-import Nav from './Components/Nav';
+import Nav from "./Components/Nav";
 
 const App = () => {
   return (
     <main className="relative">
-      <Nav/>      
+      <Nav />
       <section className="xl:padding-1 wide:padding-l padding-b">
-        <Hero/>
+        <Hero />
       </section>
       <section className="padding">
-       <PopularProduct/>
+        <PopularProduct />
       </section>
       <section className="padding">
-        <SuperQulity/>
+        <SuperQulity />
       </section>
       <section className="padding -x py-10">
-       <Services/>
+        <Services />
       </section>
       <section className="padding">
-      <SpecialOffer/>
+        <SpecialOffer />
       </section>
       <section className="bg-pale-blue padding">
-        <Customer/>
+        <Customer />
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
-      <Subscribe/>
+        <Subscribe />
       </section>
       <section className="bg-black padding-x padding-t pb-8">
-        <Footer/>
+        <Footer />
       </section>
-    </main >
-  )
-}
+    </main>
+  );
+};
 
-export default App
- 
+export default App;
